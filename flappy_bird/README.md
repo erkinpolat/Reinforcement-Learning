@@ -6,7 +6,7 @@
 	$ python3 -m venv my_env
 	$ source my_env/bin/activate
 3. Load dependencies with
-    $ pip install requirements.txt
+    $ pip install -r requirements.txt
 4. To run the code, type:
     $ python game.py
 (if you want to play the game comment out the last loop in the game.py file and just type start_game() at the end of the file. The current settings make the bot play the game in training mode.)
