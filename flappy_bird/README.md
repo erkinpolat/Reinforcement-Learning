@@ -11,6 +11,10 @@
     $ python game.py
 (if you want to play the game comment out the last loop in the game.py file and just type start_game() at the end of the file. The current settings make the bot play the game in training mode.)
 
+## Sources
+
+For the game code I followed this tutorial at first as a starting point: https://www.youtube.com/watch?v=UZg49z76cLw Then I adapted and made changes to it to be object oriented. I also made a couple of improvements to the game logic so it work smoother. The flappy.py is the original code replicated and the font and the bird/pipe/background pictures are taken from the original author's repo. 
+
 ## Files in the directory
 - game.py: Involves the main loop of the game as a start_game() function. With the parameters, the function can be set to have a human player or the q learning AI as a player. 
 - bird.py: Defining the bird object.
